@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mydictionary"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.autofocus" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="23" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.mydictionary.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.mydictionary.StartActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.slidemenu.MainPageActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.mydictionary.PhoneInforActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.waterfall.WaterFallActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.waterfall.SelectImageActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity android:name=".GPSActivity" >
+        </activity>
+        <activity android:name=".CameraActivity" >
+        </activity>
+        <activity android:name=".SlidingDrawerActivity" >
+        </activity>
+        <activity android:name=".SendMessageActivity" >
+        </activity>
+        <activity android:name=".CallActivity" >
+        </activity>
+        <activity android:name=".LightActivity" >
+        </activity>
+        <activity android:name=".SQLiteActivity" >
+        </activity>
+        <activity android:name=".GetRootActivity" >
+        </activity>
+        <activity android:name=".PopWindowActivity" >
+        </activity>
+        <activity android:name=".Grallery3DActivity" >
+        </activity>
+        <activity android:name=".ListViewActivity" >
+        </activity>
+        <activity android:name=".SoundActivity" >
+        </activity>
+        <activity
+            android:name=".FloatingWindowActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity android:name=".ViewPagerActivity" >
+        </activity>
+        <activity android:name="com.example.datepick.DatePickerActivity" >
+        </activity>
+        <!--<service android:name="com.example.helper.DownloadService">
+        </service>-->
+
+        <activity
+            android:name="com.example.compass.CompassMainActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTask"
+            android:label="@string/app_name" >
+        </activity>
+
+        <activity
+            android:name="com.example.compass.Compass"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+        </activity>
+
+        <receiver android:name="com.example.compass.ForceOrientationReceiver" >
+            <intent-filter>
+                <action android:name="com.jrdcom.ACTION_FORCE_ORIENTATION" />
+            </intent-filter>
+        </receiver>
+        <activity
+            android:name="com.example.compass.SettingActivity"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+        <activity android:name="com.example.faceofftagglebutton.FaceToggleButtonTestActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+        </activity>
+        
+        <activity
+            android:name="com.example.scratchview.DemoClothingActivity"
+            android:label="@string/clothing_title"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+        </activity>
+
+        <activity
+            android:name="com.example.scratchview.CaptchaActivity"
+            android:label="@string/captcha_title"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+        </activity>
+        <activity
+            android:name="com.example.scratchview.ScratchViewTestActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme">
+        </activity>
+
+        <activity
+            android:name="com.example.mydictionary.ZxingTestActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme">
+        </activity>
+
+        <activity
+            android:name="com.xys.libzxing.zxing.activity.CaptureActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme">
+        </activity>
+
+        <activity
+            android:name="com.example.stickyheader.StickyHeaderTestActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity
+            android:name="com.example.stickyheader.AddressBookDemoActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:label="@string/title_address_book_demo"
+            android:launchMode="singleTop"
+            android:parentActivityName="com.example.stickyheader.StickyHeaderTestActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.stickyheader.StickyHeaderTestActivity"/>
+        </activity>
+
+        <activity
+            android:name="com.example.stickyheader.HeaderCallbacksDemoActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:label="@string/title_simple_demo"
+            android:launchMode="singleTop"
+            android:parentActivityName="com.example.stickyheader.StickyHeaderTestActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.stickyheader.StickyHeaderTestActivity"/>
+        </activity>
+
+        <activity
+            android:name="com.example.stickyheader.SectioningAdapterDemoActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:label="@string/title_sectioning_adapter_demo"
+            android:launchMode="singleTop"
+            android:parentActivityName="com.example.stickyheader.StickyHeaderTestActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.stickyheader.StickyHeaderTestActivity"/>
+        </activity>
+    </application>
+
+</manifest>

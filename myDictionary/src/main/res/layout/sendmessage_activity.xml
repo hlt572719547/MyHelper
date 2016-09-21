@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/phonenumber"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:digits="1234567890+-"
+        android:hint="请输入要发送的手机号" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/message"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:hint="请输入短信内容" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="发送" />
+
+    <Button
+        android:id="@+id/tomessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="调用系统发短信" />
+     <Button
+        android:id="@+id/inserttomessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="伪造短信" />
+
+</LinearLayout>

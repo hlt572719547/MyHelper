@@ -1,0 +1,32 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+    <dimen name="slidingmenu_offset">80dp</dimen>
+    <dimen name="list_padding">10dp</dimen>
+    <dimen name="shadow_width">15dp</dimen>
+
+    <!-- dimens for compass begin -->
+    <dimen name="title_bar_layout_height">52dp</dimen>
+    <dimen name="bottom_bar_layout_height">52dp</dimen>
+    <dimen name="center_marginBottom">@dimen/bottom_bar_layout_height</dimen>
+    <dimen name="center_marginTop">23dp</dimen>
+    <dimen name="text_size_textDegree">60sp</dimen>
+    <dimen name="text_size_textDirection">30sp</dimen>
+    <dimen name="text_size_gpsInfo">14dp</dimen>
+    <dimen name="text_size_real_mode_degree">32sp</dimen>
+    <dimen name="real_mode_hight">150dp</dimen>
+    <dimen name="real_mode_low">100dp</dimen>
+    <dimen name="text_size_direction">21sp</dimen>
+    <!-- dimens for compass end -->
+    
+    <!-- dimens for scratchview , begin-->
+    <dimen name="fab_margin">16dp</dimen>
+    <!-- dimens for scratchview , end-->
+
+    <dimen name="app_bar_height">180dp</dimen>
+</resources>

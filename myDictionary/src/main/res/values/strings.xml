@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Android开发助手</string>
+    <string name="action_settings">Settings</string>
+    <string name="face_toggle_title">笑脸切换按钮</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="openlight">开启</string>
+
+    <!-- strings for compass , begin-->
+    <string name="north_na">"N"</string>
+    <string name="east_na">"E"</string>
+    <string name="south_na">"S"</string>
+    <string name="west_na">"W"</string>
+    <string name="southeast_na">"SE"</string>
+    <string name="northeast_na">"NE"</string>
+    <string name="southwest_na">"SW"</string>
+    <string name="northwest_na">"NW"</string>
+    <string name="latitude_na">"LAT:"</string>
+    <string name="longitude_na">"LON:"</string>
+    <string name="geographyinfo_na">"Failed to get geography info."</string>
+    <string name="note">"Move away from any interference and recalibrate by waving phone in a figure 8 motion."</string>
+    <string name="note_tablet">"Compass interference. Wave the tablet in a figure 8 motion to recalibrate the compass."</string>
+    <string name="xxhdpi_north_na">"North of"</string>
+    <string name="xxhdpi_east_na">"East of"</string>
+    <string name="xxhdpi_south_na">"South of"</string>
+    <string name="xxhdpi_west_na">"West of"</string>
+    <string name="xxhdpi_southeast_na">"Southeast of"</string>
+    <string name="xxhdpi_northeast_na">"Northeast of"</string>
+    <string name="xxhdpi_southwest_na">"Southwest of"</string>
+    <string name="xxhdpi_northwest_na">"Northwest of"</string>
+    <string name="xxhdpi_geographyinfo_na">"Unable to obtain geographic information."</string>
+    <string name="xxhdpi_prompt">"Enable high accuracy location mode and network to obtain geography information"</string>
+    <string name="device_not_support">"Device does not support orientation sensor."</string>
+    <string name="calibration">"Calibration"</string>
+    <string name="map">"Map"</string>
+    <string name="degree_suffix">"°"</string>
+    <string name="dialog_content">"Turn on location services and use Maps to navigate."</string>
+    <string name="ok">"OK"</string>
+    <string name="LAT">LAT :</string>
+    <string name="LON">LON :</string>
+    <string name="ALTI">ALTI :</string>
+    <string name="BARO">BARO :</string>
+    <string name="grant_access_title">"Grant access"</string>
+    <string name="grant_access_comment">"Change permission in your device’s\napp settings. Give Compass access\nto Location and GPS."</string>
+    <string name="settings">"Settings >"</string>
+    <string name="exit">"Exit"</string>
+    <string name="turn_camera_comment">"To use real view mode, grant access to Camera"</string>
+    <string name="try_realview_title">"Try real view mode"</string>
+    <string name="try_realview_comment">"Let compass show direction with a real view of your surroundings"</string>
+    <string name="try_bt">"Try"</string>
+    <string name="later_bt">"Later"</string>
+    <string name="opengps_title">"Location service disabled"</string>
+    <string name="opengps_message">"Enable location services"</string>
+    <string name="opengps_enable">"Enable"</string>
+    <string name="opengps_accuracy_message">"Select high accuracy mode to use GPS to obtain altitude and barometric information"</string>
+    <string name="opengps_accuracy_cancel">"Cancel"</string>
+    <string name="opengps_accuracy_enable">"Enable"</string>
+    <string name="opengps_accuracy_try">"Couldn’t get GPS fix. Move away from any interference and try again."</string>
+    <string name="openlocation_highacc_message">"Set high accuracy location mode to use GPS to get geographic information"</string>
+    <string name="yes">"Yes"</string>
+    <string name="location_use">"Use location?"</string>
+    <string name="location_changesetting">"Compass wants to change your device settings:"</string>
+    <string name="location_usegps">"Use GPS for location"</string>
+    <string name="location_improve_accuracy">"Improve location accuracy?"</string>
+    <string name="location_usegpsnetwork">"Use GPS, Wi-Fi, and mobile networks for location"</string>
+    <string name="no">"No"</string>
+    <string name="message_improve_accuracy">"Turn on network and improve location accuracy to get geo info"</string>
+    <string name="message_high_accuracy_try">"Turn on network or move away from any interference to use GPS to get geo info"</string>
+    <string name="message_turn">"Turn on location and network to get geo info"</string>
+    <string name="turn_camera_location">"To get geo info, allow Compass to access Location"</string>
+    <!-- strings for compass , end-->
+    
+    <!-- strings for scratchview , begin-->
+    <string name="price">\u20b9 1400</string>
+    <string name="price_strike"><strike>\u20b9 1400</strike> <font fgcolor="red"> \u20b9 1200 </font></string>
+    <string name="clothing_title">Basics Blue Casuals</string>
+    <string name="captcha_title">Captcha</string>
+    <string name="scratch_for_offer">Scratch to get offer :</string>
+    <string name="flat_200">FLAT200</string>
+    <string name="flat_200_offer">Get flat \u20b9 200 off with</string>
+    <string name="add_to_cart">ADD TO CART</string>
+    <string name="wish_list">WISHLIST IT!</string>
+    <string name="select_size">Select Size:</string>
+    <string name="scratch_to_find_image">Prove you are not a robot : Scratch and tell what was the image</string>
+    <string name="house">House</string>
+    <string name="train">Train</string>
+    <string name="park">Park</string>
+    <string name="tree">Tree</string>
+    <string name="verify">Verify</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="scratch_text_view_demo">Scratch Text View Demo</string>
+    <string name="scratch_image_view_demo">Scratch Image View Demo</string>
+    <!-- strings for scratchview , end-->
+
+    <!-- strings for StickyHeaders , begin-->
+    <string name="action">Action</string>
+
+    <string name="activity_main_pager_main">Demos</string>
+    <string name="activity_main_pager_about">About</string>
+
+    <string name="action_delete">Delete</string>
+    <string name="action_clone">Clone</string>
+
+    <string name="menu_item_reload">Reload</string>
+
+    <string name="title_address_book_demo">Address Book</string>
+    <string name="title_simple_demo">Sticky Header Callbacks</string>
+    <string name="title_sectioning_adapter_demo">Sections</string>
+
+    <string name="about_title">About</string>
+    <string name="about_adapter_title">SectioningAdapter</string>
+    <string name="about_adapter_text">SectioningAdapter is a simple RecyclerView.Adapter subclass which allows for items to be grouped into sections. Each section may have an optional header and footer, as well as any number of items. SectioningAdapter is designed for use with StickyHeaderLayoutManager, but works fine with a vanilla RecyclerView.LinearLayoutManager</string>
+
+    <string name="about_layout_title">StickyHeaderLayoutManager</string>
+    <string name="about_layout_text">The StickyHeaderLayoutManager is a simple RecyclerView.LayoutManager designed for use with the SectioningAdapter. It works like an iOS UITableView where section titles are fixed to the top of the scrollview when content is scrolled up. Its very useful for scenarios like address books.</string>
+
+    <string name="main_demo_list_title">Demos</string>
+    <string name="demo_list_item_addressbook_title">Address Book</string>
+    <string name="demo_list_item_addressbook_description">A simple address book demo using sections to organize people by first letter of last name</string>
+
+    <string name="demo_list_item_callbacks_title">Sticky Header Callbacks</string>
+    <string name="demo_list_item_callbacks_description">Demonstrates use of callbacks on header positioning, allowing for elevation effects, etc</string>
+
+    <string name="demo_list_item_sections_title">SectioningAdapter</string>
+    <string name="demo_list_item_sections_description">Demonstrates that SectioningAdapter can be used with a vanilla RecyclerView.LinearLayoutManager</string>
+
+    <string name="demo_addressbook_load_error_action">Info</string>
+    <string name="demo_addressbook_load_error_dialog_title">Whoops</string>
+    <!-- strings for StickyHeaders , end-->
+</resources>

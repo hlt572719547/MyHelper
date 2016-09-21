@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="def_is_in_china">false</bool>
+    <bool name="def_is_tablet">false</bool>
+    <!-- 0:Landscape. 1:Portrait. 2:Auto Rotation. Default:1-->
+    <string name="def_screen_orientation">1</string>
+    <!-- true:use orientation sensor. false:use magnetic field sensor. Default:true -->
+    <bool name="def_use_orientation_sensor">true</bool>
+    <!-- The time of require "high accuracy" when enter the calibration interface.The units of time in milliseconds.Default value is 0. -->
+    <string name="def_check_accuracy_high_time">0</string>
+    <!-- BUG913987-WEi.PENG. When the accuracy of the sensor is less than this value, it will automatically trigger the calibration. Value: 1:low, 2:medium, 3:high. Default value is 2.-->
+    <string name="def_need_accuracy">2</string>
+</resources>

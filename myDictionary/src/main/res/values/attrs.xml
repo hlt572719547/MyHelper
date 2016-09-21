@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="FaceOffToggleButton">
+
+        <attr name="foBackgroundColor" format="color|reference"/>
+        <attr name="foLeftBackgroundColor" format="color|reference"/>
+        <attr name="foRightBackgroundColor" format="color|reference"/>
+        <attr name="foLeftFaceColor" format="color|reference"/>
+        <attr name="foRightFaceColor" format="color|reference"/>
+        <attr name="foLeftEyeColor" format="color|reference"/>
+        <attr name="foRightEyeColor" format="color|reference"/>
+        <attr name="foLeftMouthColor" format="color|reference"/>
+        <attr name="foRightMouthColor" format="color|reference"/>
+
+        <attr name="foFaceRadius" format="dimension|reference"/>
+        <attr name="foWidthRadiusRatio" format="float|reference"/>
+        <attr name="foFaceMargin" format="dimension|reference"/>
+
+        <attr name="foDuration" format="integer|reference"/>
+
+        <attr name="foMoveToSameStateCallListener" format="boolean|reference"/>
+        <attr name="foDraggable" format="boolean|reference"/>
+
+        <attr name="foColorChangeType" format="enum">
+            <enum name="rgb" value="0"/>
+            <enum name="hsv" value="1"/>
+        </attr>
+
+        <attr name="foTouchMoveRatioValue" format="float|reference"/>
+
+    </declare-styleable>
+
+</resources>

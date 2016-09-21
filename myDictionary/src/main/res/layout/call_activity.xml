@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/callnumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:digits="0123456789+-"
+        android:hint="请输入要拨打的号码" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/call"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="CALL" />
+
+    <Button
+        android:id="@+id/call1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="只跳过去而不直接拨打" />
+
+    <Button
+        android:id="@+id/contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="联系人" />
+
+</LinearLayout>

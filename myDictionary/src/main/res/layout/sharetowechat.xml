@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/openWXapp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="启动微信" />
+
+    <EditText
+        android:id="@+id/sendet"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/openWXapp"
+        android:hint="请输入要发送的文本" />
+
+    <Button
+        android:id="@+id/sendbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sendet"
+        android:text="send to wechat" />
+
+    <Button
+        android:id="@+id/sendbycamera"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/sendbtn"
+        android:layout_below="@+id/sendbtn"
+        android:text="拍照分享" />
+    <Button 
+        android:id="@+id/sd"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sendbycamera"
+        android:text="从手机中选择图片分享"
+        />
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sd"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

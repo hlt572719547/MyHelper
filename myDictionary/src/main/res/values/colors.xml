@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="red">#900</color>
+    <color name="green">#090</color>
+    <color name="blue">#009</color>
+    <color name="white">#FFF</color>
+    <color name="black">#000</color>
+
+    <!-- colors for compass , begin-->
+    <color name="text_normal">#afafaf</color>
+    <color name="arc_draw">#03a9f4</color>
+    <color name="actionbar_dark">#546E7A</color>
+    <color name="container_dark">#37474F</color>
+    <color name="container_day">#FFFFFF</color>
+    <color name="compass_level_float_backgroud">#7f000000</color>
+    <color name="compass_level_cross">#7fffffff</color>
+    <color name="compass_degreen_noth">#f44336</color>
+    <color name="compass_degreen_default">#03A9F4</color>
+    <color name="compass_label_default">#AFAFAF</color>
+    <color name="compass_window_background">#000000</color>
+    <color name="compass_gps_info">#7E7972</color>
+    <color name="compass_gps_info_value">#03A9F4</color>
+    <color name="compass_backgroud_cross">#4eacdf</color>
+    <color name="real_mode_fon">#FFFFFF</color>
+    <color name="real_mode_location">#FFFFFF</color>
+    <color name="compass_setting_bg">#0288d1</color>
+    <color name="compass_setting_text_color">#ffffff</color>
+    <color name="compass_setting_gps_bg">#026da7</color>
+    <color name="compass_direction">#f44336</color>
+    <!-- colors for compass , end-->
+
+    <!-- colors for scratchview , begin-->
+    <color name="scratch_start_gradient">#e5e5e5</color>
+    <color name="scratch_end_gradient">#cccccc</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="bg_card">#f9f9f9</color>
+    <color name="paint_background">#ddd</color>
+    <color name="cart_bg">#f88c00</color>
+    <!-- colors for scratchview , end-->
+
+    <!-- colors for stickyheader , begin-->
+    <color name="actionButton">#dddddd</color>
+    <color name="windowBackground">#fafafa</color>
+    <color name="textLight">#dddddd</color>
+    <color name="textMedium">#999999</color>
+    <color name="divider">#dddddd</color>
+    <color name="tabTextDefault">#afff</color>
+    <color name="tabTextSelected">#fff</color>
+    <color name="headerBackground">#eeeeee</color>
+    <!-- colors for stickyheader , end-->
+</resources>
